@@ -1,0 +1,11 @@
+{
+    "separator;": ", ",
+    "Basic price: {price}/month": "Basic price: {price}/month",
+    "Post: {monthlyLimit}/month ({weeklyLimit}/week)": "Post: {monthlyLimit}/month ({weeklyLimit}/week)",
+    "Meeting：{monthlyLimit}/month": "Meeting：{monthlyLimit}/month",
+    "({amenities})": " ({amenities})",
+    "Report：{monthlyLimit}/month": "Report：{monthlyLimit}/month",
+    "{monthlyLimit}/month ({weeklyLimit}/week)": "{monthlyLimit}/month ({weeklyLimit}/week)",
+    "Limit: {monthlyLimit}/month": "Limit: {monthlyLimit}/month",
+    "Dummy description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+}

@@ -1,0 +1,21 @@
+@import "../variables";
+
+.option-card {
+  cursor: pointer;
+  width: 300px;
+  padding: 30px 20px 10px;
+  background: $gray;
+  border: 4px solid $gray;
+
+  &:hover,
+  &.selected {
+    border-color: $dark-yellow;
+  }
+
+  .optionLogo {
+    width: 50px;
+  }
+  .lvLogo {
+    width: 15px;
+  }
+}

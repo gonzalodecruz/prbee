@@ -1,0 +1,48 @@
+@import "../variables";
+
+.header-divider {
+  margin-bottom: 30px;
+
+  @include media-breakpoint-up(md) {
+    padding: 0 50px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 0 150px;
+  }
+  @include media-breakpoint-up(xl) {
+    padding: 0 200px;
+  }
+
+  .ribbon {
+    position: relative;
+    height: 30px;
+    border-bottom: 4px solid $dark;
+    margin: 0 50px;
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      height: 30px;
+    }
+    &:before {
+      width: 50px;
+      left: -50px;
+      border-bottom: 4px solid $dark;
+      border-left: 4px solid $dark;
+      border-bottom-left-radius: 100%;
+    }
+    &:after {
+      width: 55px;
+      right: -52px;
+      bottom: -30px;
+      border-top: 4px solid $dark;
+      border-right: 4px solid $dark;
+      border-top-right-radius: 100%;
+    }
+
+    &.reverse {
+      transform: scaleX(-1);
+    }
+  }
+}

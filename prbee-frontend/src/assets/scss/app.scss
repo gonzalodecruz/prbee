@@ -1,0 +1,63 @@
+@import "./variables";
+
+.app-content {
+  padding-top: 50px;
+  padding-bottom: 180px;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 0px;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $yellow;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .character {
+    height: 100px;
+
+    @include media-breakpoint-only(xs) {
+      display: none;
+    }
+
+    img {
+      width: 95px;
+      position: absolute;
+      bottom: 0;
+
+      @include media-breakpoint-up(lg) {
+        right: 50%;
+      }
+    }
+  }
+}
+
+.option {
+  .title {
+    background: $yellow;
+    border-left: 10px solid $dark;
+    padding: 7px 20px;
+    font-weight: $font-weight-bold;
+  }
+
+  .content {
+    padding: 30px;
+
+    .btn {
+      img {
+        width: 18px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
